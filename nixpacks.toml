@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["chromium"]
+
+[variables]
+PUPPETEER_EXECUTABLE_PATH = "/nix/var/nix/profiles/default/bin/chromium"
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
