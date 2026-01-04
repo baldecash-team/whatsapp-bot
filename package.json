@@ -1,6 +1,7 @@
 {
-  "name": "whatsapp-bridge",
+  "name": "whatsapp-n8n-bridge",
   "version": "1.0.0",
+  "description": "Bridge entre WhatsApp y n8n para BaldeCash",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,5 +10,8 @@
     "whatsapp-web.js": "^1.26.0",
     "express": "^4.21.0",
     "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
